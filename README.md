@@ -14,6 +14,6 @@ Set the correct value for wf_length in headers/biWFA.h
 Compile the program biWFA.cpp with ```hipcc biWFA.cpp -o biWFA```
 
 #### Step 3:
-Run the executable passing the name of the file containing the sequences to align. Use the option -s to show the sequences and their optimal alignment score ```./biWFA filename.txt [-s]```
+Run the executable passing the name of the file containing the sequences to align. Use the option -s to show the sequences and their optimal alignment score ```./biWFA sequences/sequences_xxx_x.txt [-s]```
 
 To run the version that allocates the wavefronts in shared memory modify headers/biWFA_shared.h and compile biWFA_shared.cpp
